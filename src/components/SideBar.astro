@@ -1,0 +1,30 @@
+---
+import Home from "./icons/Home.astro"
+---
+<!-- CONTAINER -->
+<div
+        class="w-[25%] md:w-[25%] sm:w-0 sm:overflow-hidden border-r border-gray-300 flex items-center justify-between flex-col p-4 h-screen fixed left-0 top-0 bg-white z-10 transition-all duration-300"
+>
+    <!-- HEADER ICON -->
+    <div
+            class="flex items-center justify-center flex-col border-b border-gray-300 w-full p-4"
+    >
+        <a href="">
+            <img src="marca/Logo - PrintHub.png" alt="PrintHub" class="w-16 h-16"/>
+        </a>
+    </div>
+
+    <!-- ICONS -->
+    <div class="flex flex-col h-full w-full bg-blue-100">
+
+            <a class="p-8 flex flex-row items-center" href="/"><Home />Inicio</a>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="flex items-center flex-col border-t border-gray-300 p-4 w-full space-y-2">
+        <a class="" href="configuracion-usuario">
+            <img src="marca/avatar.png" alt="PrintHub" class="w-10 h-10"/>
+        </a>
+        <h3>Nombre del usuario</h3>
+    </div>
+</div>

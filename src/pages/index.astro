@@ -1,11 +1,25 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import SectionContainer from "../components/SectionContainer.astro";
 ---
 
-<Layout>
-	<Welcome />
+<Layout
+  title="Sistema de Inventarios PrintHub"
+  description="Sistema de gestión de inventarios"
+>
+  <SectionContainer>
+    <!-- <div id="inventory-app"></div> -->
+  </SectionContainer>
 </Layout>
+
+<!-- <script>
+  import InventoryDashboard from "../components/InventoryDashboard";
+  import React from "react";
+  import { createRoot } from "react-dom/client";
+
+  const container = document.getElementById("inventory-app");
+  if (container) {
+    const root = createRoot(container);
+    root.render(React.createElement(InventoryDashboard));
+  }
+</script> -->
